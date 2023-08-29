@@ -18,18 +18,29 @@
         </ul>
     </div>
 
-    <form action="../backend/form.php" method="post">
-        
-        <label for="naam">Naam:</label>
-        <input type="text" id="naam" name="naam"><br>
+    <div class="contact">
+        <h2>Contact</h2>
+        <form action="../backend/form.php" method="post">
 
-        <label for="achternaam">Achternaam:</label>
-        <input type="text" id="achternaam" name="achternaam"><br>
-        
-        
-
-
-    </form>
+            <div class="user-box">
+                <input type="text" name="naam" required="">
+                <label>Naam</label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="achternaam" required="">
+                <label>Achternaam</label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="email" required="">
+                <label>Email</label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="vraag" required="">
+                <label>Vraag</label>
+            </div>
+            <input type="submit" name="submit">
+        </form>
+    </div>
 
 </body>
 </html>

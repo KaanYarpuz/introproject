@@ -5,7 +5,7 @@
 
 nav{
     position: relative;
-    background-color: rgb(50, 45, 49);
+
 }
 
 body{
@@ -19,7 +19,7 @@ ul {
     text-align:center;
     text-decoration: none;
     padding: 10px;
-    background-color: rgb(50, 45, 49);
+
 
 }
 li {

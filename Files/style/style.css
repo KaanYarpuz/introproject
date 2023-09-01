@@ -177,9 +177,9 @@ video{
 
   .column {
     float: left;
-    width: 33.33%;
-    padding: 40px;
+    width: 27%;
     margin-bottom: 50px;
+    margin-left: 30px;
   }
   
 

@@ -175,19 +175,20 @@ video{
     text-align: center;
   }
 
-  .column {
-    float: left;
-    width: 27%;
-    margin-bottom: 50px;
-    margin-left: 30px;
-  }
+
   
 
-  .photos::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    }
+    .column h3{
+        text-align: center;
+        color: white;
+    }
   
   h2{
       text-align:center;
@@ -199,6 +200,7 @@ video{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px 30px;
     color: white;
+    margin-bottom: 90px;
     
 }
 
@@ -228,6 +230,8 @@ line-height: 26px;
 padding-bottom: 15px;
 
 }
+
+
 
 @media (max-width: 991px∂) {
     .row .right .content{

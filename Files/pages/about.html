@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style/style.css">
-    
+
+
 </head>
+
 <body>
     <div class="nav">
         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="project.html">Projecten</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html" class="active-page">About</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
 
+    <div class="about">
+        <div class="container">
+            <div class="line">
+                <div class="about-col-1">
+                    <img src="../media/project1.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Mijn naam is Kaan Yarpuz en ik ben 17 jaar oud. Ik zit op het Grafisch Lyceum Rotterdam in het
+                        tweede jaar!. Ik heb verschillende dingen geleerd in deze opleiding. Hoe je bijvoorbeeld een
+                        software kan maken, samenwerken met personen, progammeertalen etc. Ik wil mij uitbreiden in het
+                        software gebied en ik denk dat stage lopen bij een bedrijf de beste manier is om te leren.
+                        Ervaring is veel beter dan gewoon leren.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Educatie</p>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Programming language:</span><br>HTML<br>CSS<br>Python<br>Javascript<br>C#<br>PHP
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Educatie:</span><br>Grafisch Lyceum Rotterdam (2022-2023)</li>
+                        </ul>
+                    </div>
+                    <h1 class="sub-title2">Hobby's</h1>
+                    <p>Mijn hobby's zijn gamen en voetballen. Ik hou van voetballen met vrienden. Mijn favoriete video
+                        game is CS:GO. Ik speel dat spel ook competitief.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/about.js"></script>
 </body>
+
 </html>

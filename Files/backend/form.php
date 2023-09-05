@@ -27,7 +27,7 @@ if (isset($_POST['submit'])){
 
     $stmt->execute();
 
-    echo "Bedankt voor het verzenden! Uw id is: $id als u wijzigingen wilt maken.";
+    echo "Bedankt voor het verzenden! Uw id is: $id";
     echo "<br>";
 
     echo "Uw naam: $naam";

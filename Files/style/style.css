@@ -9,6 +9,10 @@ body {
     background-color: rgb(50, 45, 49);
 }
 
+img {
+    border-radius: 40px;
+}
+
 #projects body {
     width: 100%;
     min-height: 100vh;
@@ -40,7 +44,7 @@ li {
     padding-left: 50px;
     padding: 10px;
     text-decoration: none;
-    
+
 }
 
 li a {
@@ -65,12 +69,12 @@ li a {
     width: 100%;
 }
 
-.nav ul li a.active-page{
+.nav ul li a.active-page {
     filter: brightness(50%);
 }
 
 /* Home page */
-.textarea{
+.textarea {
     height: 100px;
     text-align: center;
     margin-top: 100px;
@@ -140,12 +144,11 @@ video {
 
 .about-col-3 img {
     width: 100%;
-    border-radius: 40px;
 }
 
 /* Contact page */
 
-.areacover{
+.areacover {
     margin: 500px;
 }
 
@@ -254,7 +257,6 @@ h2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 
 .row .right {
@@ -316,7 +318,6 @@ h2 {
 
 .about-col-1 img {
     width: 100%;
-    border-radius: 40px;
 }
 
 .about-col-2 {

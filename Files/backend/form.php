@@ -37,5 +37,7 @@ if (isset($_POST['submit'])){
     echo "Uw e-mail: $email";
     echo "<br>";
     echo "Uw vraag: $vraag";
+    echo "<br>";
+    echo '<a href="verwerk.php">Klik hier als u uw gegevens wilt veranderen</a>';
 }
 ?>
